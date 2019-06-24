@@ -19,8 +19,8 @@ class register extends CI_Controller
                 }
                 else
                 {
-                     this->load->view('formsuccess');
-                	//echo "Success";
+                     //this->load->view('formsuccess');
+                	echo "Success";
                 	die();
                 }
 
